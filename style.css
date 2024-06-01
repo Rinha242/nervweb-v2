@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#typewriter {
+    font-family: monospace;
+    font-size: 1.25em;
+    background: linear-gradient(to right, #bd2626 0%, #0f0875 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 5s linear infinite;
+  }
+  
+  @keyframes animate-gradient {
+    0% { background-position: 0 0; }
+    100% { background-position: 100% 100%; }
+  }
