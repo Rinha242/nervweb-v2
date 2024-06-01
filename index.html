@@ -8,12 +8,15 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="src/fontello/css/fontello.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="col-sm p-3 min-vh-100">
-    <header class="bg-primary text-white text-center py-5">
+    <header class="text-center py-5">
       <div class="container">
-        <h1>Welcome to Our Esport Team</h1>
+        <h1>
+          <div id="typewriter"></div>
+        </h1>
         <p class="lead">We are a professional team in the field of eSports.</p>
       </div>
     </header>
@@ -29,12 +32,18 @@
       <div class="container">
         <h2 class="text-center mb-5">About Us</h2>
         <p>Nerv Glorious is a gaming industry with a mission to build meaningful connections and relationships within the esports community. Rather than simply focusing on the competitive side of gaming, Nerv Glorious believes that esports has the power to bring people together and foster a sense of belonging. Their goal is to create a safe and positive space where gamers from diverse backgrounds can unite over their shared passion for gaming.</p>
+        <div class="d-flex justify-content-end align-items-end">
+          <a class="icon-link icon-link-hover text-end" style="--bs-link-hover-color-rgb: 25, 135, 84;" href="about/">
+            More information
+            <svg class="bi" aria-hidden="true"><use xlink:href="#arrow-right"></use></svg>
+          </a>
+        </div>
       </div>
     </section>
   
     <section id="history" class="py-5">
       <div class="container">
-        <h2 class="text-center mb-5">Our History</h2>
+        <h2 class="text-center mb-5">Our Match History</h2>
         <p>In the early months of 2023, a visionary gamer with a deep-rooted desire to establish a thriving and inclusive gaming industry embarked on a remarkable journey. On the auspicious day of March 20th, this passionate individual laid the foundation for a remarkable venture. Fueled by their unwavering love for gaming and a fervent aspiration to create a space where all gamers would feel welcome, they set out to bring their vision to life.</p>
         <p>Over the subsequent months, this fledgling industry began to take shape, evolving into a vibrant hub where players from all walks of life could come together, connect, and revel in their shared passion. Guided by the founder's unwavering dedication, the industry flourished, attracting an eclectic mix of participants who were united by their unwavering enthusiasm for gaming.</p>
       </div>
@@ -47,6 +56,7 @@
       </div>
     </section>
   </div>
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
